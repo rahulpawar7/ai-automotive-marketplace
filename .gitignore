@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Production builds
+dist/
+build/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache & misc
+.cache/
+.parcel-cache/
+.eslintcache
+coverage/
+
+# Generated data artifacts (vector index can be regenerated)
+server/data/vector-index.json
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
